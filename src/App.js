@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
 import { useState, useEffect } from "react";
 import Loader from "./components/Loader";
 
@@ -23,7 +25,9 @@ function App() {
       {!isLoaded ? (
         <div><Loader /></div>
       ) : (
-        <div className="bg-site bg-cover bg-no-repeat overflow-hidden h-screen">
+        <div className="bg-site bg-cover bg-no-repeat overflow-hidden">
+          <Header />
+          <Banner />
           <Navbar />
           <About />
           <Skills />

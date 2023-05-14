@@ -22,7 +22,7 @@ export default function Loader() {
     //   </div>
     // </div>
 
-    <div className="bg-black h-screen flex flex-col">
+    <div className="bg-site bg-cover bg-no-repeat overflow-hidden h-screen flex flex-col">
       <div className="m-auto">
      <div className="flex flex-col gap-2">
      <ul className="loader">
@@ -32,7 +32,7 @@ export default function Loader() {
         <li></li>
         <li></li>
       </ul>
-      <div className="text-[#635863]"><Typed strings={["Vintage Jukebox Loading..."]} typeSpeed={35} /></div>
+      <div className="text-gradient"><Typed strings={["Vintage Jukebox Loading..."]} typeSpeed={35} /></div>
      </div>
       </div>
       

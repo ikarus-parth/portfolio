@@ -18,12 +18,12 @@ ul.loader{
   margin: 0 0.5em 0 0;
   
   background: #635863;
-  background: -moz-linear-gradient(top, #635863 0%, #3d353b 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#635863),  color-stop(100%,#3d353b));
-  background: -webkit-linear-gradient(top, #635863 0%,#3d353b 100%);
-  background: -o-linear-gradient(top, #635863 0%,#3d353b 100%);
-  background: -ms-linear-gradient(top, #635863 0%,#3d353b 100%);
-  background: linear-gradient(to bottom, #635863 0%,#3d353b 100%);
+  background: -moz-linear-gradient(top, #ff56f6 0%, #b936ee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b936ee),  color-stop(100%,#ff56f6));
+  background: -webkit-linear-gradient(top, #ff56f6 0%,#b936ee 100%);
+  background: -o-linear-gradient(top, #ff56f6 0%,#b936ee 100%);
+  background: -ms-linear-gradient(top, #b936ee 0%,#ff56f6 100%);
+  background: linear-gradient(to bottom, #b936ee 0%,#ff56f6 100%);
   
   box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.0), 1px 1px 1px 0 rgba(0, 0, 0, 0.0), 1px 1px 1px 0 rgba(0, 0, 0, 0.0);
   
